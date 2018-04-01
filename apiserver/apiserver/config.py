@@ -42,21 +42,21 @@ API_KEY_HEADER = "X-Api-Key"
 SESSION_COOKIE = "user_id"
 
 # Google Cloud
-GCLOUD_PROJECT = 'TODO'
-GCLOUD_PROJECT_ID = 'TODO'
-GCLOUD_ZONE = 'us-central1-c'
+GCLOUD_PROJECT = 'UTD-AIS-Halite-II'
+GCLOUD_PROJECT_ID = 'robust-analyst-199618'
+GCLOUD_ZONE = 'us-east1-b'
 
-GCLOUD_COMPILATION_BUCKET = 'TODO'
-GCLOUD_BOT_BUCKET = 'TODO'
+GCLOUD_COMPILATION_BUCKET = 'ais-halite-2-compiled-bots'
+GCLOUD_BOT_BUCKET = 'ais-halite-2-uploaded-bots'
 # Replays are saved in different buckets based on player level
 GCLOUD_REPLAY_BUCKETS = {
     # 0 is the normal bucket
-    0: 'todo',
+    0: 'ais-halite-2-replays',
     # 1 is the bucket for gold and above players
-    1: 'todo',
+    1: 'ais-halite-2-gold-replays',
 }
-GCLOUD_ERROR_LOG_BUCKET = 'TODO'
-GCLOUD_DEPLOYED_ARTIFACTS_BUCKET = 'TODO'
+GCLOUD_ERROR_LOG_BUCKET = 'ais-halite-2-error-logs'
+GCLOUD_DEPLOYED_ARTIFACTS_BUCKET = 'ais-halite-2-deployed-artifacts'
 
 # The name of the worker source blob in the object storage bucket.
 WORKER_ARTIFACT_KEY = ""
